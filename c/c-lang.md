@@ -20,6 +20,14 @@ example we store the address of ```x``` in pointer ```ptr```.
 int *ptr = &x;
 ```
 
+Whenever we want to acess the value of what the pointer points to, we can use
+the asterisk again. So now that we have the value ```7``` in variable ```x``` and
+```ptr``` pointing to that location, we can access the value ```7``` like so:
+
+```c
+*ptr = 6;
+```
+
 A full example looks like this:
 
 ```c
